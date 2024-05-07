@@ -1,0 +1,184 @@
+@font-face {
+  font-family: norsebold;
+  src: url(./Norse-Bold.otf);
+}
+
+body{
+  margin: 0;
+  display: flex;
+  margin-right: 20vw;
+}
+
+#sidebar{
+  display: flex;
+  flex-direction: column;
+  box-sizing: content-box;
+  min-width: 32vw;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: center url("./images/halie-west-25xggax4bSA-unsplash.jpg");
+  background-size: 100vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#sidebar > p:last-child {
+  font-size: 2vh;
+  color: white;
+  display: block;
+}
+
+#sidebar > div{
+  width: 100%;
+  margin-top: 20vh;
+  font-family: norsebold;
+  color: white;
+  max-height: 30vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1vw;
+  box-sizing: border-box;
+  padding: 5vh;
+}
+
+#sidebar > div img {
+ width: auto;
+  height: 100%;
+}
+
+#sidebar > div p{
+  font-size: 15vh;
+}
+
+#sidebar p a {
+  color: white;
+}
+
+.header{
+  background-color: rgb(248, 248, 248);
+  display: flex;
+  font-size: 1 rem;
+}
+
+#rightside{
+  border: 1px pink solid;
+  min-width: 68vw;
+
+}
+
+#rightside > *{
+  padding: 3vw;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#forms{
+  box-shadow: .5vw .01vw black;
+  font-size: 2vh;
+}
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+li{
+  margin-right: 3vw;
+  margin-bottom: 3vw;
+}
+
+label{
+  font-size: inherit;
+}
+
+input{
+  appearance: none;
+  width: 15vw;
+  height: 2vw;
+  border: 1px #E5E7EB solid;
+  border-radius: 5px;
+  margin-right: 3vw;
+}
+
+input:focus{
+  appearance: none;
+  outline: none;
+  border: 1px rgb(115, 115, 255) solid;
+  box-shadow: 1px 1px 4px black;
+}
+
+input:invalid{
+  border: 1px rgb(255, 54, 54) solid;
+}
+
+input[class="pwd"]:valid{
+  border: 1px rgb(96, 255, 96) solid;
+}
+
+input[class="password-match"]{
+  border: 1px rgb(96, 255, 96) solid;
+}
+
+input[class="password-unmatch"]{
+  border: 1px rgb(255, 54, 54) solid;
+}
+
+label{
+  font-size: .8rem;
+  margin-bottom: .5vw;
+}
+
+li>*{
+  display: block;
+}
+
+h1{
+  margin-top: 1.7vw;
+  font-size: clamp(2vh, 4vh, 6vh );
+}
+
+form{
+  max-width: 50vw;
+}
+
+p{
+font-size: 4vh;
+}
+
+button{
+color: white;
+background-color: #596D48;
+min-width: 15vw;
+min-height: 4vw;
+border-radius: 10px;
+outline: none;
+box-shadow: none;
+display: block;
+margin-bottom: 2vh;
+font: inherit;
+}
+
+#thirdpart{
+background-color: rgb(248, 248, 248);
+box-shadow: inset 3px black;
+padding-top: 1vw;
+font-size: 3vh;
+
+}
+
+#thirdpart p{
+display: inline;
+margin-top: 1vw;
+font-size: inherit;
+}
+
+#thirdpart a{
+text-decoration: none;
+color:#596D48;
+font-size: inherit;
+}
